@@ -1,0 +1,42 @@
+.section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  color: #282b2f;
+  margin-bottom: 38px;
+}
+
+.section-subtitle {  
+  color: #546e7a;
+  font-style: italic;
+  font-weight: 400;
+  
+}
+
+.section-description {
+  margin: 30px 0;
+  margin-bottom: 35px;
+  line-height: 26px;
+}
+
+.section-margin-lg {
+  margin-bottom: 90px;
+}
+
+.section-margin-zero {
+  margin-top: 0;
+}
+
+.section .tabs {
+  border-bottom: 2px solid #009688;
+}  
+
+.section-line::before {
+  background-color: #e8eff4;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 40px; 
+}

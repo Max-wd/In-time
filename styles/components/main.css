@@ -1,0 +1,14 @@
+.main .main-content {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.main .article {
+  margin-right: 57px;
+  width: 844px;
+}
+
+.main .aside {
+  width: 380px;
+}

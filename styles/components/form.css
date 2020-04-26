@@ -1,0 +1,136 @@
+.form-control {
+  position: relative;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  border: 1px solid #e0e9f0;
+  padding: 10px;
+  background-color: #fff;
+  color: #666;
+  margin: 0;
+  border-radius: 4px  ;
+  font-size: inherit;
+}
+.input {
+  height: 52px;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: blue;
+}
+
+.input:disabled,
+.select:disabled,
+.textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #999;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #bdc6ca;;
+}
+
+.textarea {
+  resize: none;
+  height: 140px;
+}
+
+.input-danger,
+.input-danger:focus {
+  color: red;
+  border-color: red;
+}
+
+.input-success,
+.input-success:focus {
+  color: green;
+  border-color: green;
+}
+
+.input-blank {
+  background-color: none;
+  border-color: transparent;
+}
+.input-blank:focus {
+  background-color: #e5e5e5;
+  border-style: dashed;
+}
+
+.form-error-message {
+  color: red;
+  position: absolute;
+  bottom: -16px;
+  display: none;
+}
+
+.form-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 16px;
+  right: 26px;
+  bottom: 16px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/search.png);
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer; 
+}
+
+.form-icon:hover {
+  color: #666;
+}
+
+.form-icon-flip {
+  right: 0;
+  left: auto;
+}
+
+.input-position {
+  padding-right: 60px;
+}
+
+.form-icon:not(.form-icon-flip) ~ .input {
+  padding-left: 40px !important;
+}
+.form-icon-flip ~ .input {
+  padding-right: 40px !important;
+}
+
+.form-margin {
+  margin-bottom: 50px;
+}
+
+.form-user .input {
+  margin-bottom: 16px;
+
+}
+
+.form-user .textarea {
+  margin-bottom: 36px;
+}
+
+.form-margin-sm {
+  margin: 16px 0;
+}
+
+.form-title {
+  color: #282b2f;
+  margin: 71px 0 0 0;
+}
+
+.form-description {
+  line-height: 26px;
+  margin: 5px 0 30px 0;
+}

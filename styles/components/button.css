@@ -1,0 +1,84 @@
+.button {
+  color: #009688;
+  font-style: normal;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 38px;
+  margin: 0;
+  border-radius: 4px;
+  border: 2px solid #009688;;
+  padding: 10px 60px;
+  outline: none;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.button:hover {
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-primary {
+  color: #009688;
+  background-color: #ffffff;
+}
+
+.button-primary:hover {
+  color: #ffffff;
+  background-color: #009688;
+}
+
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  width: 100%;
+}
+
+.button-medium {
+  padding: 12px 24px;
+}
+
+.button-margin {
+  margin-bottom: -2px;
+}
+
+.button-padding {
+  padding: 10px 70px;
+}
+
+.button-radius {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.button-icon {
+  position: relative;
+}
+
+.button-icon::before {
+  content: "";
+  display: inline-block; 
+  vertical-align: middle;
+  position: absolute;
+  background-image: url(../../images/left-arrow.png);
+  top: 20px;
+  bottom: 20px;
+  right: 54px;
+  width: 16px;
+  height: 14px;
+}

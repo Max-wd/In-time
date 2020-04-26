@@ -1,0 +1,30 @@
+.header-top {
+  background-color: #f5f8fb;
+}
+
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #000000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none; 
+}
+
+.primary-color {
+  color: #009688;
+}
+
+.header-bottom::after {
+  background-color: #e8eff4;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 16px;  
+} 

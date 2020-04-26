@@ -1,0 +1,46 @@
+.card-line::after {
+  background-color: #e8eff4;
+  margin-top: 26px;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+
+.card-margin {
+  margin-bottom: 38px;
+}
+
+.card-title {
+  margin-bottom: 7px;
+  color: #282b2f;
+}
+
+.card .card-description {
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+.card-image-grid {
+  margin-bottom: 0;
+}
+
+.card-image {
+  height: 310px;  
+}
+
+.card-image > img {
+  height: 200px;
+  width: 100%;
+}
+
+.card-time {
+  color: #bdc6ca;
+  font-size: 14px;
+}
+
+.card-link {
+  color: #009688;  
+  font-weight: 500; 
+  text-decoration: underline;
+  font-style: normal;
+}
